@@ -1,70 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 				React Machine Test
+🔥 Signup Page 🔥
+- Sign up with ease! Our Form validation and Toastify backend validation ensure accurate and secure data entry.
+- Once you sign up, your Name will be safely stored in local storage, and you won't be able to open the Signup page again due to our smart validation.
 
-## Available Scripts
+🔐 Login Page 🔐
+- Login securely using Form Validation and Toastify backend validation.
+- Sample Credentials:
+    - Email: finaltestbyaman@gmail.com
+    - Password: finaltestbyaman@gmail.com
 
-In the project directory, you can run:
+🚀 After Login 🚀
+- Get ready for an exciting experience! After login, you'll be redirected to our Homepage "/".
 
-### `npm start`
+🏠 Home Page 🏠
+- Discover our products with stunning images! We made a dynamic loop of static images since the backend didn't provide image URLs. Titles may not perfectly match the images, but you'll love our products.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👤 Profile Page👤
+- Edit your profile with ease! We've set up validation for a smooth experience.
+- Some data will be preloaded from local storage to fetch mandatory fields.
+- Please note a small bug with language and image fields, but don't worry, they will be sent correctly (even if they appear empty).
+- Upon submission, a delightful Toastify notification will confirm your profile update.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔍 Search Page🔍
+- Find your favorite products with our fully functional search feature.
+- Filter products by keyword, category, and subcategory. Price range and sort by price are not available due to resource limitations.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔧 Extra Task 🔧
+- We've added some extra perks! Utilizing Redux Toolkit, we made your Username visible on the header.
+- You'll also find a convenient Logout button for added security.
+- We've implemented validation on routes, ensuring that you can't access the profile section and search without logging in.
